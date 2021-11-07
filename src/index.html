@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Avia-tickets</title>
+  </head>
+  <body>
+    <nav class="header blue">
+      <div class="nav-wrapper container d-flex align-items-center">
+        <div class="logo d-flex align-items-center">
+          <i class="material-icons">flight_takeoff</i>
+          <a href="#" class="brand-logo">Avia-tickets</a>
+        </div>
+        <ul id="nav-mobile" class="right hide-on-med-and-down ml-auto">
+          <li>
+            <div class="input-field">
+              <select id="currency">
+                <option value="USD">$ US Dollar</option>
+                <option value="EUR">€ Euro</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="form-section">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col m6 mx-auto">
+            <div class="card">
+              <form action="" name="locationControls">
+                <div class="card-content">
+                  <div class="card-title">Choose your ticket</div>
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      id="autocomplete-origin"
+                      class="autocomplete"
+                    />
+                    <label for="autocomplete-origin">Origin</label>
+                  </div>
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      id="autocomplete-destination"
+                      class="autocomplete"
+                    />
+                    <label for="autocomplete-destination">Destination</label>
+                  </div>
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      class="datepicker"
+                      id="datepicker-depart"
+                    />
+                    <label for="datepicker-depart">Depart date</label>
+                  </div>
+                  <div class="input-field">
+                    <input
+                      type="text"
+                      class="datepicker"
+                      id="datepicker-return"
+                    />
+                    <label for="datepicker-return">Return date</label>
+                  </div>
+                </div>
+                <div class="card-action d-flex">
+                  <button
+                    class="btn waves-effect waves-light blue darken-2"
+                    type="submit"
+                    name="action"
+                  >
+                    Search
+                    <i class="material-icons right">send</i>
+                  </button>
+                  <button
+                    class="
+                      btn
+                      waves-effect waves-light
+                      blue-grey
+                      lighten-1
+                      ml-auto
+                    "
+                    type="reset"
+                    name="action"
+                  >
+                    Reset
+                    <i class="material-icons right">cancel</i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TICKETS SECTION  -->
+    <div class="tickets-section">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="tickets-empty-res-msg">Tickets not found</div>
+          <div class="col s12 m6">
+            <div class="card ticket-card">
+              <div class="ticket-airline d-flex align-items-center">
+                <img
+                  src="https://pics.avs.io/100/100/0H.png"
+                  class="ticket-airline-img"
+                  alt="airline-logo-image"
+                />
+                <span class="ticket-airline-name">
+                  Uzbekistan International airlines
+                </span>
+              </div>
+              <div class="ticket-destination d-flex align-items-center">
+                <div class="d-flex align-items-center mr-auto">
+                  <span class="ticket-city">Tashkent</span>
+                  <i class="Small material-icons">flight_takeoff</i>
+                </div>
+                <div class="d-flex align-items-center ml-auto">
+                  <i class="Small material-icons">flight_land</i>
+                  <span class="ticket-city">Navoi</span>
+                </div>
+              </div>
+              <div class="ticket-time-price d-flex align-items-center">
+                <span class="ticket-time-departure">20 Nov 2021 22:00</span>
+                <span class="ticket-price ml-auto">$445</span>
+              </div>
+              <div class="ticket-additional-info">
+                <span class="ticket-transfers">Transplants: 1</span>
+                <span class="ticket-flight-number">Flight number: 28</span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
